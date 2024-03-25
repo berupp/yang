@@ -322,6 +322,10 @@ func (y *List) KeyMeta() (keyMeta []Leafable) {
 	return y.keyMeta
 }
 
+func (y *List) Key() []string {
+	return y.key
+}
+
 type Leaf struct {
 	parent         Meta
 	originalParent Definition
