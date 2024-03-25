@@ -1,3 +1,3 @@
-module github.com/berupp/yang
+module github.com/freeconf/yang
 
 go 1.20
